@@ -1,9 +1,13 @@
 /* nav relatad style */
+body{
+    font-family:open sans;
+}
 nav{
     display:flex;
     font-family:open sans;
     justify-content:space-between;
     align-items:center;
+    margin:0 140px;
 }
 .logo{
     color:black;
@@ -20,11 +24,12 @@ nav{
     font-size:20px;
     color:white;
     font-weight:700;
-    padding:18px 35px;
+    padding:10px 15px;
 }
 nav > ul{
     display:flex;
     align-items:center;
+    
 }
 nav li{
     list-style:none;
@@ -33,4 +38,16 @@ nav li{
 nav li a {
     text-decoration:none;
     color:#474747;
+}
+/* header related style */
+.header{
+    background-color:#FFF8F3;
+}
+.banner{
+    padding:30px 30px 30px 150px;
+    display:flex;
+    align-items:center;
+}
+.profile-pic{
+    width:300px;
 }
