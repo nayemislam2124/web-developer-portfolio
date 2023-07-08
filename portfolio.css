@@ -92,6 +92,7 @@ nav li a {
     margin-left:10px;
 }
 /* about section styles */
+
 .section{
     max-width:700px;
     padding:100px;
@@ -120,4 +121,39 @@ nav li a {
 .about-info-container h4{
     font-weight:600;
     text-transform:uppercase;
+}
+.section-1{
+    max-width:700px;
+    padding:100px;
+    margin:100px auto;
+    
+}
+.section-title-1{
+    color:#181818;
+    text-align:center;
+    font-size:25px;
+    font-weight:700;
+}
+.section-description-1{
+    font-size:15px;
+    text-align:center;
+    color:#171717;
+}
+.skill-container{
+    display:flex;
+    gap:10px;
+}
+.skill{
+    padding:30px;
+    font-size:10px;
+    border-radius:5px;
+    background:#fff;
+    box-shadow:0px 6px 50px rgba(0, 0, 0, 0.20);
+}
+.skill-description{
+    color:#474747;
+}
+.head-name{
+    display:flex;
+    justify-content:space-between;
 }
