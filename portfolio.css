@@ -44,7 +44,14 @@ nav li a {
     background-color:#FFF8F3;
     background:url("images/header_bg.png");
     background-repeat:no-repeat;
+    background-size:500px;
     background-position:bottom right;
+}
+.developer{
+    height:400px;
+    position:absolute;
+    left:50px;
+    top:100px;
 }
 .banner{
     padding:30px 30px 0px 150px;
@@ -63,4 +70,54 @@ nav li a {
     font-weight:500;
     color:#474747;
     margin-bottom:0;
+}
+.banner h1{
+    font-size:60px;
+    margin-top:-5px;
+    font-weight:700;
+}
+.banner-description{
+    margin-top:-40px;
+    font-weight:400;
+    color:#474747;
+}
+.btn-primary-two{
+    background:transparent;
+    border:2px solid #FD6E0A;
+    border-radius:5px;
+    font-size:20px;
+    color:#FD6E0A;
+    font-weight:500;
+    padding:8px 15px;
+    margin-left:10px;
+}
+/* about section styles */
+.section{
+    max-width:700px;
+    padding:100px;
+    background:#ece5e1;
+    margin:100px;
+    
+}
+.section-title{
+    color:#181818;
+    text-align:center;
+    font-size:25px;
+    font-weight:700;
+    margin-top:-80px;
+}
+.section-description{
+    font-size:15px;
+    text-align:center;
+    color:#171717;
+}
+.about-info-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align:center;
+}
+.about-info-container h4{
+    font-weight:600;
+    text-transform:uppercase;
 }
